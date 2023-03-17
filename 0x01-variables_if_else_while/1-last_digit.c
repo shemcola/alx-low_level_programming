@@ -1,37 +1,27 @@
 #include <stdio.h>
-
 #include <stdlib.h>
-
 #include <time.h>
 
 /**
- * main - Prints subsequent text according to numbers
- * Return: Always (Success)
- *
+ * main - prints positive
+ * negative
+ * and if number is zero
+ * Return: always 0
  */
 
 int main(void)
-
 {
-
-	int n, lastd;
+	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	lastd = n % 10;
 
-	if (lastd > 5)
-	{
-	printf("last number of %d is %d and is also greater than 5\n", n, lastd);
-	}
-	else if (lastd == 0)
-	{
-	printf("last number of %d is %d and is also a 0\n", n, lastd);
-	}
-	else if (lastd < 6 && lastd != 0)
-	{
-	printf("last number of %d is %d and is  less than 6 and not 0\n", n, lastd);
-	}
+	if (n > 0)
+		printf("%d is positive", n);
+	else if (n == 0)
+		printf("%d is zero", n);
+	else
+		printf("%d is negative", n);
+	printf("\n");
 	return (0);
-
 }
