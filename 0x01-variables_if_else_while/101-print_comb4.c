@@ -30,7 +30,12 @@ int main(void)
 				}
 			}
 		}
+<<<<<<< HEAD
 	}
 	putchar('\n');
 	return (0);
+=======
+	}	putchar('\n');
+	return(0);
+>>>>>>> eaf6e3df3377274eb2f2564be5d72441a94c2478
 }
