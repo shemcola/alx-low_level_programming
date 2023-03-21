@@ -1,4 +1,4 @@
-#include "main.h"
+
 
 /**
  *  _islower - checks for lowercase charactyeer
@@ -6,11 +6,12 @@
  *  Return: 1 for lowercase or 0 for else
  */
 
-int _islower(int c)
+int _isalpha(int c)
 {
-	if (c >= 97 && c <= 122)
+	if ((c >=65 && c <= 90) || (c >= 97 && c <= 122))
 	{
 	return (1);
 	}
 	return (0);
 }
+
