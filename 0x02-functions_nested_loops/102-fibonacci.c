@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Prints the first 52 finbonacci nums
- * Return: Nnothing!
+ * Return: Nothing!
  */
 int main(void)
 {
@@ -25,3 +25,5 @@ int main(void)
 	}
 	printf("\n");
 	return (0);
+
+}
