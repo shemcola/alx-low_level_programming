@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Prints the first 52 finbonacci nums
- * Return: Nothing!
+ * Return: Nnothing!
  */
 int main(void)
 {
@@ -19,11 +19,10 @@ int main(void)
 	{
 	k += j;
 	j = k - j;
-	printf(", %ld", k);
+	print(", %ld", k);
 	}
 	++i;
 	}
 	printf("\n");
 	return (0);
-
 }
